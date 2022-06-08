@@ -1,0 +1,185 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+div button {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    color: white;
+    background-color: rgb(51, 47, 47);
+    border-radius: 10px;
+}
+
+.themebody1 {
+    background-color: #88bdbc;
+}
+
+.header1 {
+    display: flex;
+    background-color: #254e58;
+    padding: 10px;
+    /* margin: 1%; */
+    /* border: 2px solid black; */
+}
+
+#header-logo {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.header1 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.747);
+}
+
+
+.header-links {
+    display: flex;
+    margin-left: 60%;
+}
+
+.header-links a{
+    margin: 5px;
+}
+
+.hero-block {
+    display: flex;
+    padding: 40px;
+    background-color: #88bdbc;
+    /* background-image: url('/home/captainnemo/repos/collegeWebsite/pages/images/porter-raab-gnj9vj--FRY-unsplash.jpg'); 
+    background-repeat: no-repeat;
+    background-size: auto; */
+}
+
+.hero-block  div {
+    /* background-color: rgb(81, 140, 196); */
+    margin: 10px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    flex-grow: 2;
+}
+
+#hero-right {
+    background-color: #254e58;
+    
+}
+
+#hero-left {
+    color: #254e58;
+}
+
+#hero-image{
+    display: block;
+    margin : 0 auto;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #254e58;
+}
+
+.showcase .photo {
+    margin: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #05386b;
+}
+
+.showcase .photo .image {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid #4f4a41;
+    border-radius: 20px;
+}
+
+.showcase .photo .image img {
+    width: inherit;
+    height: auto;
+    border-radius: inherit;
+}
+
+.testimonial {
+    background-color: #6e6658cb;
+    height: auto;
+    color: white;
+}
+
+#quote , #quoter {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#quoter {
+    text-align: end;
+    padding: 0 5% 20px 0;
+}
+
+.signup {
+    display: flex;
+    height: 100px;
+    margin: 10%;
+    background-color: #1ca9d4;
+    border-radius: 10px;
+}
+
+.signup .banner {
+    /* padding: 1%; */
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    margin-left: 20px;
+    color: #254e58;
+    
+}
+
+.signup .banner h4 {
+    margin-bottom: -10px;
+}
+
+.signup .banner p {
+    font-size: 14px;
+}
+
+.signup .button {
+    display: flex;
+    margin: auto 20px auto 0;
+}
+
+.button1 {
+    background-color: #112d32;
+    border-radius: 5px;
+    height: 25px;
+    border: 0.5px solid #88bdbc;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: #4f4a41;
+    color: white;
+    margin: none;
+    height: 40px;
+    font-size: small;
+    align-items: center;
+    justify-content: center;    
+}
+
+#contact {
+    text-align: right;
+    margin-left: 10%;
+}
